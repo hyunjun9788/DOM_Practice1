@@ -24,14 +24,58 @@
             height:400px;
             display:flex;
             justify-content: center;
-            align-items:center;
+            display:inline-block;
 
+
+        }
+        .login {
+            padding: 30px;
+            font-size:30px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        .idPw{
+            text-align: center;
+        }
+        input[type='text']{
+            height: 45px;
+            width:300px;
+            margin: 5px;
+        }
+        input[type='password']{
+            height: 45px;
+            width:300px;
+            margin: 5px;
+        }
+        button{
+
+            height: 45px;
+            width:300px;
+            margin: 15px;
+            color:white;
+            background-color: green;
+            border-radius: 5px;
+        }
+        .submit{
+            text-align: center;
         }
 
     </style>
 </head>
 <body>
 <div class="container">
+    <div class="login">로그인</div>
+    <form>
+    <div class="idPw">
+        <input type="text" placeholder='이메일'>
+        <input type="password" placeholder='비밀번호'>
+    </div>
+    <div class="submit">
+        <button type="button">로그인</button>
+    </div>
+    </form>
 
 </div>
 </body>
