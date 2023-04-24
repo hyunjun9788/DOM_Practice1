@@ -1,0 +1,76 @@
+body{
+    background-color:  lightgray;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+
+}
+
+.container{
+    background-color: white;
+    width:400px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    display:inline-block;
+
+
+}
+.login {
+    padding: 30px;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.idPw{
+    text-align: center;
+}
+input[type='text']{
+    height: 45px;
+    width:300px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type='password']{
+    height: 45px;
+    width:300px;
+    margin: 5px;
+    border-radius: 5px;
+}
+button{
+
+    height: 45px;
+    width:300px;
+    margin: 15px;
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+}
+.submit{
+    text-align: center;
+}
+.pwFind{
+    color:yellowgreen;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.signUp{
+    color:yellowgreen;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.pwFind:hover{
+    color:green;
+    text-decoration: underline;
+
+}
+.signUp:hover{
+    color:green;
+    text-decoration: underline;
+}
